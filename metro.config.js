@@ -11,6 +11,6 @@ const SymlinkResolver = require('@rnx-kit/metro-resolver-symlinks');
 module.exports = makeMetroConfig({
   projectRoot: __dirname,
   resolver: {
-    // resolveRequest: SymlinkResolver(),
+    resolveRequest: SymlinkResolver(),
   },
 });
