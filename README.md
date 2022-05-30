@@ -9,6 +9,8 @@ pnpm version: 6.32.2 and tried 7
 
 ## Starting the app
 
+Install deps with `pnpm install`
+
 Start RN's dev server with: `pnpm start` results in the process crashing with this error:
 
 ```
