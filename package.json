@@ -12,6 +12,7 @@
     "fix-deps": "rnx-dep-check --write"
   },
   "dependencies": {
+    "@react-native-community/cli": "^8.0.2",
     "react": "17.0.2",
     "react-native": "^0.68.0-0"
   },
@@ -28,7 +29,10 @@
     "babel-jest": "^26.6.3",
     "eslint": "^7.32.0",
     "jest": "^26.6.3",
+    "metro": "^0.71.0",
+    "metro-core": "^0.71.0",
     "metro-react-native-babel-preset": "^0.67.0",
+    "metro-resolver": "^0.71.0",
     "react-test-renderer": "17.0.2"
   },
   "jest": {
