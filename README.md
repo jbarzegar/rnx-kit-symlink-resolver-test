@@ -89,3 +89,5 @@ in `<gitRoot>/.npmrc`:
 ```
 module-linker=hoisted
 ```
+
+Although hoisted mode doesn't require the symlink resolver to get metro functioning with pnpm
